@@ -29,16 +29,16 @@ A second press on backspace removes the highlighted chip.<br />
 
 How to Run:<br />
 
-#Clone the repository:<br />
+## Clone the repository:<br />
 git clone https://github.com/your-username/chip-input-component.git<br />
 cd chip-input-component<br />
 
-#Install dependencies:<br />
+## Install dependencies:<br />
 npm install <br />
 Run the application:  <br />
 npm start   <br />
 
-#Technologies Used:<br />
+## Technologies Used:<br />
 React<br />
 CSS <br />
 
