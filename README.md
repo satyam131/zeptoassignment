@@ -31,9 +31,9 @@ git clone https://github.com/your-username/chip-input-component.git
 cd chip-input-component
 
 #Install dependencies:
-npm install
-Run the application:
-npm start
+npm install /n
+Run the application:  /n
+npm start   /n
 
 #Technologies Used:
 React
