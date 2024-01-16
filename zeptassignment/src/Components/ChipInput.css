@@ -1,0 +1,115 @@
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  background-color: #e2e8f0;
+  padding: 8px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.chip button {
+  margin-left: 8px;
+  background-color: #c53030;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.item {
+  background-color: #d1d5db;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #9ca3af;
+}
+
+input {
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0px solid;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.chips-outer {
+  display: flex;
+  align-items: center;
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.horizonline {
+  height: 1px;
+  color: solid blue;
+  width: 50%
+}
+
+.div-line {
+  position: absolute;
+  width: 50%;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+}
+
+.suggestions-list {
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  display: none;
+  overflow: scroll;
+  margin-top: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-list.visible {
+  display: block;
+}
+
+.circular-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #4a5568;
+  margin-right: 12px;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
