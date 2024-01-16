@@ -1,6 +1,9 @@
 # zeptoassignment
 This project implements a Chip Input Component using React and CSS. The Chip Input Component is designed to provide a user-friendly interface for entering and managing tags or items in the form of chips.
 <br />
+
+# Deploy link : https://zeptoassignment.netlify.app/
+
 Key Features:  <br />
 
 1.Dynamic Suggestions:     <br />
